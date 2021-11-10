@@ -1,0 +1,11 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+msgid "Network MAP"
+msgstr "网络拓扑"
+
+msgid "Collecting data..."
+msgstr "正在收集数据..."
+
+msgid "Network Map"
+msgstr "网络拓扑"

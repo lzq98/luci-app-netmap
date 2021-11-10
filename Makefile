@@ -46,6 +46,8 @@ define Package/luci-app-netmap/install
 	$(INSTALL_BIN) ./src/index.htm $(1)/usr/lib/lua/luci/view/map/
 	$(INSTALL_BIN) ./src/map.lua $(1)/usr/lib/lua/luci/controller/
 	cp -pR ./root/* $(1)/
+	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/i18n
+	po2lmo ./po/zh-cn/map.po $(1)/usr/lib/lua/luci/i18n/map.zh-cn.lmo
 endef
 
 define Package/luci-app-netmap/postinst
